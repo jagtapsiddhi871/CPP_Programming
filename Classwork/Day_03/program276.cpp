@@ -1,0 +1,17 @@
+//POP Approach
+
+#include<iostream>
+using namespace std;
+
+int Addition(int no1, int No2)
+{
+    int Ans = 0;
+    Ans = no1 + no2;
+    return Ans;
+}
+int main()
+{
+    cout<<Addition(10,11)<<"\n";
+    
+    return 0;
+}
